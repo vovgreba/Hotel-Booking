@@ -1,0 +1,27 @@
+@media screen and (max-width: 1150px)
+  .packages-group
+    justify-content: center
+  .blue-heaven
+    margin: 0 0 2.5rem 0
+  .hotel
+    &:nth-child(even)
+      margin-right: 2.5rem
+    &:nth-child(odd)
+      margin-right: 0
+@media screen and (max-width: 768px)
+  .packages-group
+    align-items: center
+    flex-direction: column
+  .hotel
+    &:nth-child(even)
+      margin-right: 0
+
+@media screen and (max-width: 697px) 
+  .blue-heaven
+    display: flex
+    flex-direction: column
+    max-width: 29.16rem
+  .packages
+    &__title
+      font-size: 2.5rem
+      margin: 1.4rem 0 2.4rem
